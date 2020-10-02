@@ -1,0 +1,6 @@
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\bin\Debug\CapaDATOS.dll
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\bin\Debug\CapaDATOS.pdb
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\obj\Debug\CapaDATOS.csprojAssemblyReference.cache
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\obj\Debug\CapaDATOS.csproj.CoreCompileInputs.cache
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\obj\Debug\CapaDATOS.dll
+E:\Proyectos Visual Basic\EMSturam\CapaDATOS\obj\Debug\CapaDATOS.pdb

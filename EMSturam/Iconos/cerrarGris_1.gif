@@ -1,0 +1,44 @@
+ype" minOccurs="0"/>
+         <xsd:element name="AlignWithChartArea" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="EquallySizedAxesFont" type="xsd:string" minOccurs="0"/>
+         <xsd:any namespace="##other" processContents="lax"/>
+      </xsd:choice>
+      <xsd:attribute name="Name" type="xsd:normalizedString" use="required"/>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
+   </xsd:complexType>
+   <xsd:complexType name="ChartAlignTypeType">
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+         <xsd:element name="AxesView" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Cursor" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Position" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="InnerPlotPosition" type="xsd:string" minOccurs="0"/>
+         <xsd:any namespace="##other" processContents="lax"/>
+      </xsd:choice>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
+   </xsd:complexType>
+   <xsd:complexType name="ChartElementPositionType">
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+         <xsd:element name="Top" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Left" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Height" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Width" type="xsd:string" minOccurs="0"/>
+         <xsd:any namespace="##other" processContents="lax"/>
+      </xsd:choice>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
+   </xsd:complexType>
+   <xsd:complexType name="ChartTitlesType">
+      <xsd:sequence>
+         <xsd:element name="ChartTitle" type="ChartTitleType" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
+   </xsd:complexType>
+   <xsd:complexType name="ChartTitleType">
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+         <xsd:element name="Caption" type="StringLocIDType" minOccurs="1"/>
+         <xsd:element name="Hidden" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="Style" type="StyleType" minOccurs="0"/>
+         <xsd:element name="Position" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="DockToChartArea" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="DockOutsideChartArea" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="DockOffset" type="xsd:string" minOccurs="0"/>
+   

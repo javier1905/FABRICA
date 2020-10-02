@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ACD1DA6A-82C7-4011-A332-6C0C32E86AF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EMS</RootNamespace>
+    <AssemblyName>EMS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AREASform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AREASform.Designer.cs">
+      <DependentUpon>AREASform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONTENEDORform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTENEDORform.Designer.cs">
+      <DependentUpon>CONTENEDORform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBASEtradicional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBASEtradicional.Designer.cs">
+      <DependentUpon>FormBASEtradicional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="INGENIERIAform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="INGENIERIAform.Designer.cs">
+      <DependentUpon>INGENIERIAform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jMessajeBoxAceptar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jMessajeBoxAceptar.Designer.cs">
+      <DependentUpon>jMessajeBoxAceptar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jMessajeBoxSiNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jMessajeBoxSiNo.Designer.cs">
+      <DependentUpon>jMessajeBoxSiNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PUESTOSform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PUESTOSform.Designer.cs">
+      <DependentUpon>PUESTOSform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRABAJADORESform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRABAJADORESform.Designer.cs">
+      <DependentUpon>TRABAJADORESform.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AREASform.resx">
+      <DependentUpon>AREASform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTENEDORform.resx">
+      <DependentUpon>CONTENEDORform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBASEtradicional.resx">
+      <DependentUpon>FormBASEtradicional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="INGENIERIAform.resx">
+      <DependentUpon>INGENIERIAform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jMessajeBoxAceptar.resx">
+      <DependentUpon>jMessajeBoxAceptar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jMessajeBoxSiNo.resx">
+      <DependentUpon>jMessajeBoxSiNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PUESTOSform.resx">
+      <DependentUpon>PUESTOSform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRABAJADORESform.resx">
+      <DependentUpon>TRABAJADORESform.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoEMS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDATOS\CapaDATOS.csproj">
+      <Project>{06d15649-33af-4c61-9847-51800e395099}</Project>
+      <Name>CapaDATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{84633ef9-606e-492a-a241-27a5bf2dbd25}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrarGris.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertar1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

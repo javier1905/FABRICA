@@ -1,0 +1,10 @@
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\bin\Debug\CapaLogica.pdb
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\obj\Debug\CapaLogica.dll
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\obj\Debug\CapaLogica.pdb
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\bin\Debug\CapaDATOS.dll
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\bin\Debug\CapaDATOS.pdb
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+E:\Proyectos Visual Basic\EMSturam\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
